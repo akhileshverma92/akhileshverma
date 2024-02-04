@@ -27,19 +27,26 @@ nav {
     box-shadow: 3px 4px 7px orange;
 }
 
-.left {
+ nav .left {
     overflow: hidden;
     display: flex;
     gap: 3px;
     height: 100%;
+  
     align-items: center;
+    border-radius: 10%;
+}
+.left p{
+    border-right: 2px solid black;
+    padding-right: 0.7rem;
 }
 
 .left img {
     height: 130%;
     width: 130%;
-    border-left: 2px solid black;
+   
     margin-left: 3px;
+    border-radius: 50%;
 }
 
 .right {
@@ -143,12 +150,25 @@ ul li a:hover {
 }
 
 .h-pic {
+    height: 450px;
+    width: 36%;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
     border-radius: 50%;
     background: linear-gradient(145deg, orange, orange);
     box-shadow: 24px 24px 47px rgba(237, 176, 61, 0.962),
         -24px -24px 47px rgba(235, 163, 28, 0.767);
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.h-pic img{
+    padding: 1rem;
+    height: 100%;
+    width:100%;
+    transform: scale(1.1);
+
 }
 
 .h-pic:hover {
